@@ -1,6 +1,3 @@
-
-
-
 const items = require('../assets/data')
     
 

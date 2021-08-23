@@ -28,13 +28,7 @@ exports.handler = async (event, context, cb) => {
 
     } catch (error) {
 
-      return {
-        headers: {
-          'Access-Control-Allow-Origin': '*',
-        },
-        statusCode: 500,
-        body: 'Server Error',
-    }
+   
 
     }  
   }        
